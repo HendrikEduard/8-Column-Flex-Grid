@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body { background: #211331; font-family: sans-serif; text-align: center; }
+h1 { margin: 0; padding: 0.8em 0; color: darkblue; }
+.container { width: calc(100% - 1em); max-width: 60em; margin: 1.3em auto 0; background: lightskyblue; }
+div[class^="col-"] { background: #f6f9ff; border: 1px solid blue; padding: 0.7rem 0; text-align: center; }
+.row { display: flex; flex-wrap: wrap; }
+.col-1 { flex: 0 0 12.5%; }
+.col-offset-1 { margin-left: 12.5%; }
+.col-2 { flex: 0 0 25%; }
+.col-offset-2 { margin-left: 25%; }
+.col-3 { flex: 0 0 37.5%; }
+.col-offset-3 { margin-left: 37.5%; }
+.col-4 { flex: 0 0 50%; }
+.col-offset-4 { margin-left: 50%; }
+.col-5 { flex: 0 0 62.5%; }
+.col-offset-5 { margin-left: 62.5%; }
+.col-6 { flex: 0 0 75%; }
+.col-offset-6 { margin-left: 75%; }
+.col-7 { flex: 0 0 87.5%; }
+.col-offset-7 { margin-left: 87.5%; }
+.col-8 { flex: 0 0 100%; }
